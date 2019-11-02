@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/mall_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:backgroundTint="#FFF"
+            android:layout_gravity="center"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/img_mall"/>
+    <TextView
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="DENEME"
+            android:id="@+id/txt_mall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:textSize="6sp"
+            android:text="Uzaklık"
+            android:id="@+id/txt_uzaklik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
